@@ -59,3 +59,11 @@ If you encounter issues:
 2. Try removing `node_modules` and running `sh local-install.sh` again
 3. Ensure all local development files are present
 4. If `local-start.sh` isn't executable, run `chmod +x local-start.sh`
+
+## Future Considerations
+- Creating a tighter loop with Utopia as sometimes syncing with Github is slow and error prone. E.g. modifying utopia to run locally with local files. If running locally, also could modify to incorporate LLMs.
+- Testing different responsive design techniques in Utopia. Utopia's design tools only modify the main breakpoint, whether desktop or mobile first. To add responsive breakpoints:
+    1. Modify globals.css to include media queries for max or min width, depending on whether you want desktop first or mobile first.
+    2. Add !important to the media query styles to override the main breakpoint.
+    3. Go back to the main file (e.g. app.js) and save again to preview the results (even though the file may already say "saved")
+- Also i ntegrating Onlook or TempoLabs (similar to Uptopia) into the development-design process, where Onlook is already local and allows for quick navigation to local code by clicking on elements and allows for selecting sections of the app to run modification inferrence. 
