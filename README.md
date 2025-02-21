@@ -1,6 +1,6 @@
 # Local Development Setup
 
-Utopia.app web react IDE allows pushing to GitHub. This MacOS guide explains how to clone and run this Utopia React app locally without affecting the Utopia online environment, for local development IDE (e.g. Cursor) to then sync with design efforts on Utopia.
+[Utopia.app](https://utopia.app/), the incredible, way ahead of its time, web react IDE allows pushing your project code to GitHub. This MacOS guide explains how to clone and run this Utopia React app locally without affecting the Utopia online environment, i.e. for your local development IDE (e.g. Cursor) to then sync with design efforts on Utopia.
 
 ## Quick Start
 
