@@ -23,6 +23,8 @@ sh local-install.sh
 
 # Start development server
 sh local-start.sh
+
+Create a .gitignore file to exclude any/every local files (example below) if using git.
 ```
 
 ## How it Works
@@ -67,3 +69,40 @@ If you encounter issues:
     2. Add !important to the media query styles to override the main breakpoint.
     3. Go back to the main file (e.g. app.js) and save again to preview the results (even though the file may already say "saved")
 - Also i ntegrating Onlook or TempoLabs (similar to Uptopia) into the development-design process, where Onlook is already local and allows for quick navigation to local code by clicking on elements and allows for selecting sections of the app to run modification inferrence. 
+
+
+
+# Example Git Ignore
+
+/.DS_Store
+node_modules
+
+# Local development files
+local-start.sh
+local-install.sh
+package.local.json
+package.json.utopia
+
+# Build outputs
+/build
+/dist
+
+# Environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
