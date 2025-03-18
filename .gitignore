@@ -1,1 +1,33 @@
 /.DS_Store
+node_modules
+
+# Local development files
+local-start.sh
+local-install.sh
+package.local.json
+package.json.utopia
+package-lock.json
+
+# Build outputs
+/build
+/dist
+
+# Environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
